@@ -275,7 +275,7 @@ h2 {
     font-weight: 500;
     color: getColor(bbb2-CompassBlue);
     font-size: 1.65vw;
-    padding-left: 6vw;
+    padding-left: 0vw;
     padding-right: 0vw;
     padding-top: 0;
     margin: auto;
@@ -289,7 +289,15 @@ color: getColor(theBrown);
 .position-indent {
 font-size: 2vw;
 color: getColor(theBrown);
+font-family: "Roboto Flex";
+font-weight: 700;
+}
 
+.black-indent {
+
+    color: black;
+    font-family: "Roboto Flex", serif;
+    font-weight: 500;
 }
 
 
@@ -408,6 +416,41 @@ li .bbb-logo,
 
 }
 
+//>  ████████████████████████████████████  GRID-CONTAINER PERSONNEL
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: min-content;
+    gap: 10px;
+    align-items: start;
+    max-width: 760px;
+    margin: 0 auto;
+    
+    
+    
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 3.6vw;
+  }
+
+  .text {
+    padding: 10px;
+  }
+
+.p__about--text {
+
+font-size: 2vw;
+
+}
+
+
+//>  ████████████████████████████████████  GRID-CONTAINER PERSONNEL end
+
 header {
 
     height: 4vw;
@@ -446,7 +489,7 @@ header {
 .center-left {
     text-align: left;
     width: 70%;
-    margin: auto;
+    // margin: auto;
 }
 
 .center-letter {
@@ -2315,6 +2358,12 @@ color: getColor(theBrown);
         text-align: left;
         width: 70%;
         margin: auto;
+    }
+    
+    .about-space-below {
+
+
+
     }
 
     .center-letter {
