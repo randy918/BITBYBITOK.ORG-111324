@@ -358,7 +358,7 @@ li .bbb-logo,
 }
 
 .p__about--text {
-  font-size: 2vw;
+  font-size: 0vw;
 }
 
 header {
@@ -3219,7 +3219,7 @@ video {
   }
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: min-content;
     gap: 10px;
     align-items: start;
@@ -3231,14 +3231,15 @@ video {
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
-    padding-top: 3.6vw;
+    padding-top: 6.6vw;
   }
   .name-indent {
-    font-size: 3vw;
+    font-size: 6vw;
     color: rgb(101, 42, 36);
+    padding-top: 0;
   }
   .position-indent {
-    font-size: 2vw;
+    font-size: 4vw;
     color: rgb(101, 42, 36);
     font-family: "Roboto Flex";
     font-weight: 700;
@@ -3247,6 +3248,6 @@ video {
     color: black;
     font-family: "Roboto Flex", serif;
     font-weight: 500;
-    font-size: clamp(10px, 2vw, 30px);
+    font-size: clamp(10px, 4vw, 30px);
   }
 }/*# sourceMappingURL=abouthorses.css.map */
